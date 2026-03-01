@@ -1,12 +1,12 @@
-title: ToolsKits Journal
-description: Daily personal journal, thoughts, learning notes, and reflections.
+title: Toolskits Journal
+description: Daily personal journal entries, reflections, thoughts, and notes written openly and honestly.
 url: https://toolskits.github.io
 
 markdown: kramdown
-permalink: /:categories/:title/
-
+theme: minima
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
 
-timezone: Asia/Karachi
+author:
+  name: Toolskits
