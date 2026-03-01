@@ -1,0 +1,21 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+<h1>Tags</h1>
+<p>Browse posts by tag.</p>
+
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+  <h2>{{ tag[0] }}</h2>
+  <ul>
+    {% for post in tag[1] %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
