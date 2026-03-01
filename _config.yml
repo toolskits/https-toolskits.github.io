@@ -1,0 +1,12 @@
+title: ToolsKits Journal
+description: Daily personal journal, thoughts, learning notes, and reflections.
+url: https://toolskits.github.io
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+timezone: Asia/Karachi
